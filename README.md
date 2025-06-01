@@ -47,7 +47,8 @@ For now, **LIKE our Facebook page** to stay updated on:
 - 🔔 Early access announcements
 
 👉 [Follow us on Facebook](https://www.facebook.com/profile.php?id=61577139861170)  
-📩 [Message us](https://m.me/61577139861170) for questions or early inquiries!
+📩 [Message us](https://m.me/61577139861170) for questions or early inquiries!  
+📧 [Email us](mailto:gacetours@gmail.com) for your desired reservations!
 
 ---
 
