@@ -1,5 +1,3 @@
-<div style="background-color:#F3D8A2; padding: 20px; border-radius: 8px; color: black;">
-
 # 👋 Welcome to G. Ace Tours!
 
 **G. Ace Tours** is a service made for **Filipinos who want to go home** to their provinces — even if money is tight.  
@@ -50,8 +48,6 @@ For now, **LIKE our Facebook page** to stay updated on:
 
 👉 [Follow us on Facebook](https://www.facebook.com/profile.php?id=61577139861170) *(Replace with your actual page link)*  
 📩 Message us for questions or early inquiries!
-
-</div>
 
 ---
 
