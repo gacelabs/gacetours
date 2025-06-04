@@ -46,10 +46,11 @@ For now, **LIKE our Facebook page** to stay updated on:
 - 💬 Real stories from customers like you
 - 🔔 Early access announcements
 
-👉 [Follow us on Facebook](https://www.facebook.com/profile.php?id=61577139861170) *(Replace with your actual page link)*  
-📩 Message us for questions or early inquiries!
+👉 [Follow us on Facebook](https://www.facebook.com/profile.php?id=61577139861170)  
+📩 [Message us](https://m.me/61577139861170) for questions or early inquiries!  
+📧 [Email us](mailto:gacetours@gmail.com) for your desired reservations!
 
 ---
 
-> _G. Ace Tours — Para sa bawat Pilipino. Pa-uwi na tayo._ 🇵🇭  
+> _G. Ace Tours — Para sa bawat Pilipino. Pa-uwi na tayo._  
 > Because home is always worth the trip.

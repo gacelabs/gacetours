@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>G. Ace Tours – Affordable Installment Travel</title>
+		<style>
+			body {
+				font-family: 'Segoe UI', Arial, sans-serif;
+				margin: 0;
+				background: #f8fafc;
+				color: #222;
+			}
+
+			header {
+				background: #0057b8;
+				color: #fff;
+				padding: 2rem 1rem 1rem 1rem;
+				text-align: center;
+			}
+
+			header h1 {
+				margin: 0 0 0.5rem 0;
+				font-size: 2.2rem;
+			}
+
+			header p {
+				margin: 0;
+				font-size: 1.1rem;
+			}
+
+			nav {
+				background: #fff;
+				box-shadow: 0 2px 6px #0001;
+				padding: 0.5rem 0;
+			}
+
+			nav ul {
+				display: flex;
+				justify-content: center;
+				gap: 2rem;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			nav a {
+				color: #0057b8;
+				text-decoration: none;
+				font-weight: 600;
+			}
+
+			.packages {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 2rem;
+				justify-content: center;
+				margin: 2rem 0;
+			}
+
+			.package {
+				background: #fff;
+				border-radius: 1rem;
+				box-shadow: 0 2px 8px #0002;
+				padding: 2rem 1.5rem;
+				width: 320px;
+				text-align: center;
+			}
+
+			.package h2 {
+				margin-top: 0;
+			}
+
+			.package .icon {
+				font-size: 2.5rem;
+				margin-bottom: 0.5rem;
+			}
+
+			.price {
+				font-size: 1.5rem;
+				color: #008f4c;
+				font-weight: bold;
+				margin: 0.5rem 0;
+			}
+
+			.installment {
+				color: #ff9800;
+				font-size: 1rem;
+			}
+
+			.btn {
+				display: inline-block;
+				margin-top: 1rem;
+				padding: 0.7rem 1.5rem;
+				background: #0057b8;
+				color: #fff;
+				border-radius: 2rem;
+				text-decoration: none;
+				font-weight: 600;
+				transition: background 0.2s;
+			}
+
+			.btn:hover {
+				background: #003e8a;
+			}
+
+			.search-section {
+				background: #e3f2fd;
+				padding: 2rem 1rem;
+				text-align: center;
+			}
+
+			.search-section input,
+			.search-section select {
+				padding: 0.7rem;
+				margin: 0.3rem;
+				border-radius: 0.5rem;
+				border: 1px solid #bbb;
+			}
+
+			.search-section button {
+				padding: 0.7rem 1.5rem;
+				border-radius: 2rem;
+				border: none;
+				background: #0057b8;
+				color: #fff;
+				font-weight: 600;
+			}
+
+			footer {
+				background: #222;
+				color: #fff;
+				text-align: center;
+				padding: 2rem 1rem 1rem 1rem;
+				margin-top: 2rem;
+			}
+
+			@media (max-width: 900px) {
+				.packages {
+					flex-direction: column;
+					align-items: center;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<h1>G. Ace Tours</h1>
+			<p>Affordable Installment Ticketing for Flights, Ferry Rides, and Bus Trips</p>
+			<p><em>Pa-uwi na tayo. Because home is always worth the trip.</em></p>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#flights">Flights</a></li>
+				<li><a href="#ferry">Ferry Rides</a></li>
+				<li><a href="#bus">Bus Trips</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<section class="search-section">
+			<h2>Find Your Trip</h2>
+			<form>
+				<input type="text" placeholder="From (e.g. Manila)" required>
+				<input type="text" placeholder="To (e.g. Cebu)" required>
+				<input type="date" required>
+				<select>
+					<option value="flight">Flight</option>
+					<option value="ferry">Ferry Ride</option>
+					<option value="bus">Bus Trip</option>
+				</select>
+				<button type="submit">Search</button>
+			</form>
+		</section>
+		<section class="packages">
+			<div class="package" id="flights">
+				<div class="icon">✈️</div>
+				<h2>Flights</h2>
+				<div class="price">₱2,499 <span class="installment">or ₱499/mo x 5</span></div>
+				<p>Sample: Manila to Cebu, roundtrip, all-in. Flexible payment plans available!</p>
+				<a href="#" class="btn">Book Flight</a>
+			</div>
+			<div class="package" id="ferry">
+				<div class="icon">⛴️</div>
+				<h2>Ferry Rides</h2>
+				<div class="price">₱1,299 <span class="installment">or ₱299/mo x 5</span></div>
+				<p>Sample: Batangas to Caticlan, roundtrip. Safe, affordable, and convenient.</p>
+				<a href="#" class="btn">Book Ferry</a>
+			</div>
+			<div class="package" id="bus">
+				<div class="icon">🚌</div>
+				<h2>Bus Trips</h2>
+				<div class="price">₱799 <span class="installment">or ₱199/mo x 5</span></div>
+				<p>Sample: Cubao to Baguio, roundtrip. No hassle, no long lines!</p>
+				<a href="#" class="btn">Book Bus</a>
+			</div>
+		</section>
+		<footer id="contact">
+			<p><strong>Stay Connected:</strong></p>
+			<p>
+				<a href="https://www.facebook.com/profile.php?id=61577139861170"
+					style="color:#fff;text-decoration:underline;">Facebook</a> |
+				<a href="mailto:gacetours@gmail.com" style="color:#fff;text-decoration:underline;">Email</a>
+			</p>
+			<p>G. Ace Tours — Para sa bawat Pilipino.</p>
+		</footer>
+	</body>
+
+</html>
