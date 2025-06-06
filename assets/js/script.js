@@ -14,7 +14,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 		if (href.length > 1 && document.querySelector(href)) {
 			e.preventDefault();
 			const target = document.querySelector(href);
-			const yOffset = -(document.querySelector('header').clientHeight);
+			const yOffset = isMobileScreen() ? -(document.querySelector('header').clientHeight) : 0;
 			const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
 			// Custom slow scroll
 			const startY = window.pageYOffset;
@@ -46,3 +46,7 @@ document.addEventListener('click', (e) => {
 		navMenu.classList.remove('open');
 	}
 });
+
+function isMobileScreen() {
+	return Math.min(window.screen.width) <= 768;
+}
